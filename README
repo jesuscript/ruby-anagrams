@@ -1,0 +1,31 @@
+A simple ruby script to find whether two strings are anagrams or not.
+
+To run:
+
+ruby ruby-anagrams.rb <string 1> <string 2>
+
+Examples:
+
+$ ruby ruby-anagrams.rb love oval
+l ["o", "v", "a", "l"]
+o ["o", "v", "a"]
+v ["v", "a"]
+e ["a"]
+Not anagrams
+
+
+$ ruby ruby-anagrams.rb "Clint Eastwood" "Old West action"
+c  ["o", "l", "d", "w", "e", "s", "t", "a", "c", "t", "i", "o", "n"]
+l  ["o", "l", "d", "w", "e", "s", "t", "a", "t", "i", "o", "n"]
+i  ["o", "d", "w", "e", "s", "t", "a", "t", "i", "o", "n"]
+n  ["o", "d", "w", "e", "s", "t", "a", "t", "o", "n"]
+t  ["o", "d", "w", "e", "s", "t", "a", "t", "o"]
+e  ["o", "d", "w", "e", "s", "a", "t", "o"]
+a  ["o", "d", "w", "s", "a", "t", "o"]
+s  ["o", "d", "w", "s", "t", "o"]
+t  ["o", "d", "w", "t", "o"]
+w  ["o", "d", "w", "o"]
+o  ["o", "d", "o"]
+o  ["d", "o"]
+d  ["d"]
+Anagrams!
